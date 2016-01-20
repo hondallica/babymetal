@@ -1,5 +1,5 @@
 require "babymetal/version"
+require "babymetal/url"
 
 module Babymetal
-  # Your code goes here...
 end
