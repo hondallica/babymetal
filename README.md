@@ -1,8 +1,6 @@
 # Babymetal
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/babymetal`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+All about Japanese metal idol unit "BABYMETAL"
 
 ## Installation
 
@@ -22,7 +20,25 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require "babymetal"
+
+Babymetal::homepage
+Babymetal::youtube
+Babymetal::facebook
+Babymetal::instagram
+Babymetal::twitter
+
+su_metal  = Babymetal::Su_metal.new
+yui_metal = Babymetal::Yui_metal.new
+moa_metal = Babymetal::Moa_metal.new
+
+su_metal.shout  # SU-METAL DEATH!!
+yui_metal.shout # YUIMETAL DEATH!!
+moa_metal.shout # MOAMETAL DEATH!!
+Babymetal.shout # We are BABYMETAL DEATH!!
+
+```
 
 ## Development
 

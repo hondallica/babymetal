@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Babymetal do
+describe "URL" do
   it 'homepage' do
     expect(Babymetal::homepage).to eq "http://www.babymetal.jp/"
   end
