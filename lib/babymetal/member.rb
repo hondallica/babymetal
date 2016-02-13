@@ -1,7 +1,7 @@
 require "date"
 module Babymetal
   class Member
-    PROPERIES = %i(
+    PROPERTIES = %i(
       metal_name
       first_name_ja
       family_name_ja
@@ -14,13 +14,13 @@ module Babymetal
       hometown
     )
 
-    attr_accessor *PROPERIES
+    attr_accessor *PROPERTIES
 
     def initialize(hash = self.info)
       self.send('name_ja' + '=', "#{hash[:family_name_ja]} #{hash[:first_name_ja]}")
       self.send('name_en' + '=', "#{hash[:first_name_en]} #{hash[:family_name_en]}")
       hash.each do |key, value|
-        if PROPERIES.member? key.to_sym
+        if PROPERTIES.member? key.to_sym
           self.send(key.to_s + '=', value)
         end
       end
