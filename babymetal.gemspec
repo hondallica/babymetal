@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{All about Japanese metal idol unit "BABYMETAL"}
   spec.description   = %q{BABYMETAL is a Japanese metal idol unit.
 
-Acme::BABYMETAL provides an easy method to information of BABYMETAL.}
+babymetal provides an easy method to information of BABYMETAL.}
   spec.homepage      = "https://github.com/hondallica/babymetal"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
