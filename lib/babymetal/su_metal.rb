@@ -1,6 +1,6 @@
 require "Babymetal/Member"
 module Babymetal
-  class Su_metal < Babymetal::Member
+  class SuMetal < Babymetal::Member
     def info
       {
         :metal_name     => 'SU-METAL',
