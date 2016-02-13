@@ -29,9 +29,9 @@ Babymetal::facebook
 Babymetal::instagram
 Babymetal::twitter
 
-su_metal  = Babymetal::Su_metal.new
-yui_metal = Babymetal::Yui_metal.new
-moa_metal = Babymetal::Moa_metal.new
+su_metal  = Babymetal::SuMetal.new
+yui_metal = Babymetal::YuiMetal.new
+moa_metal = Babymetal::MoaMetal.new
 
 su_metal.metal_name # SU-METAL
 su_metal.first_name_ja # すず香
