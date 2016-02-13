@@ -33,6 +33,17 @@ su_metal  = Babymetal::Su_metal.new
 yui_metal = Babymetal::Yui_metal.new
 moa_metal = Babymetal::Moa_metal.new
 
+su_metal.metal_name # SU-METAL
+su_metal.first_name_ja # すず香
+su_metal.family_name_ja # 中元
+su_metal.name_ja # 中元 すず香
+su_metal.first_name_en # Suzuka
+su_metal.family_name_en # Nakamoto
+su_metal.name_en # Suzuka Nakamoto
+su_metal.birthday # 1997-12-20
+su_metal.blood_type # B
+su_metal.hometown # 広島県
+
 su_metal.shout  # SU-METAL DEATH!!
 yui_metal.shout # YUIMETAL DEATH!!
 moa_metal.shout # MOAMETAL DEATH!!
@@ -49,4 +60,3 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/babymetal.
-
