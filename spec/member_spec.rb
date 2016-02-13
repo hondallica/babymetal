@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe "member" do
     it 'SU-METAL' do
-      su_metal = Babymetal::Su_metal.new
+      su_metal = Babymetal::SuMetal.new
       expect(su_metal.metal_name).to eq "SU-METAL"
       expect(su_metal.first_name_ja).to eq 'すず香'
       expect(su_metal.family_name_ja).to eq '中元'
@@ -15,7 +15,7 @@ describe "member" do
       expect(su_metal.hometown).to eq '広島県'
     end
     it 'YUIMETAL' do
-      yui_metal = Babymetal::Yui_metal.new
+      yui_metal = Babymetal::YuiMetal.new
       expect(yui_metal.metal_name).to eq "YUIMETAL"
       expect(yui_metal.first_name_ja).to eq '由結'
       expect(yui_metal.family_name_ja).to eq '水野'
@@ -28,7 +28,7 @@ describe "member" do
       expect(yui_metal.hometown).to eq '神奈川県'
     end
     it 'MOAMETAL' do
-      moa_metal = Babymetal::Moa_metal.new
+      moa_metal = Babymetal::MoaMetal.new
       expect(moa_metal.metal_name).to eq "MOAMETAL"
       expect(moa_metal.first_name_ja).to eq '最愛'
       expect(moa_metal.family_name_ja).to eq '菊地'

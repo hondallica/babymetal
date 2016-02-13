@@ -1,6 +1,6 @@
 require "Babymetal/Member"
 module Babymetal
-  class Yui_metal < Babymetal::Member
+  class YuiMetal < Babymetal::Member
     def info
       {
         :metal_name  => 'YUIMETAL',
