@@ -11,7 +11,7 @@ describe "URL" do
     expect(Babymetal::facebook).to eq "https://www.facebook.com/BABYMETAL.jp/"
   end
   it 'instagram' do
-    expect(Babymetal::instagram).to eq "https://www.instagram.com/babymetal_jpn/"
+    expect(Babymetal::instagram).to eq "https://www.instagram.com/babymetal_official/"
   end
   it 'twitter' do
     expect(Babymetal::twitter).to eq "https://twitter.com/BABYMETAL_JAPAN"
