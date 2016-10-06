@@ -13,7 +13,7 @@ module Babymetal
   end
 
   def self.instagram
-    "https://www.instagram.com/babymetal_jpn/"
+    "https://www.instagram.com/babymetal_official/"
   end
 
   def self.twitter
