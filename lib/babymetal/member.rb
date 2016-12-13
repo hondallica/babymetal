@@ -32,5 +32,9 @@ module Babymetal
       }
     end
 
+    def shout
+      "#{self.info[:metal_name]} DEATH!!"
+    end
+
   end
 end
