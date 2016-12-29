@@ -23,11 +23,16 @@ Or install it yourself as:
 ```ruby
 require "babymetal"
 
+# URLs
 Babymetal::homepage
 Babymetal::youtube
 Babymetal::facebook
 Babymetal::instagram
 Babymetal::twitter
+
+# BABYMETAL Official Site News
+japanese_news = Babymetal::news
+english_news = Babymetal::news("en")
 
 su_metal  = Babymetal::SuMetal.new
 yui_metal = Babymetal::YuiMetal.new
